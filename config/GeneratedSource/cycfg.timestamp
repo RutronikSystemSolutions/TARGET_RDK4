@@ -5,11 +5,11 @@
 * Sentinel file for determining if generated source is up to date.
 * This file was automatically generated and should not be modified.
 * Configurator Backend 3.0.0
-* device-db 4.0.2.2983
-* mtb-pdl-cat2 2.0.0.8419
+* device-db 4.0.4.3352
+* mtb-pdl-cat2 2.1.0.8671
 *
 ********************************************************************************
-* Copyright 2022 Cypress Semiconductor Corporation (an Infineon company) or
+* Copyright 2023 Cypress Semiconductor Corporation (an Infineon company) or
 * an affiliate of Cypress Semiconductor Corporation.
 * SPDX-License-Identifier: Apache-2.0
 *

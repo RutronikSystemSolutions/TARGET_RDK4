@@ -91,24 +91,12 @@
                         <Param id="portLevelConfig" value="false"/>
                     </Personality>
                 </Block>
-                <Block location="ioss[0].port[10].pin[0]">
-                    <Alias value="ARD_ADC1"/>
-                </Block>
-                <Block location="ioss[0].port[10].pin[1]">
-                    <Alias value="ARD_ADC2"/>
-                </Block>
-                <Block location="ioss[0].port[10].pin[2]">
-                    <Alias value="ARD_ADC3"/>
-                </Block>
-                <Block location="ioss[0].port[10].pin[3]">
-                    <Alias value="ARD_ADC4"/>
-                </Block>
-                <Block location="ioss[0].port[10].pin[4]">
-                    <Alias value="ARD_ADC5"/>
-                </Block>
-                <Block location="ioss[0].port[10].pin[5]">
-                    <Alias value="ARD_ADC6"/>
-                </Block>
+                <Block location="ioss[0].port[10].pin[0]"/>
+                <Block location="ioss[0].port[10].pin[1]"/>
+                <Block location="ioss[0].port[10].pin[2]"/>
+                <Block location="ioss[0].port[10].pin[3]"/>
+                <Block location="ioss[0].port[10].pin[4]"/>
+                <Block location="ioss[0].port[10].pin[5]"/>
                 <Block location="ioss[0].port[11].pin[0]">
                     <Alias value="ARD_IO1"/>
                 </Block>
@@ -139,20 +127,24 @@
                 <Block location="ioss[0].port[1].pin[1]">
                     <Alias value="KITPROG_TX"/>
                 </Block>
-                <Block location="ioss[0].port[1].pin[2]"/>
-                <Block location="ioss[0].port[1].pin[3]"/>
-                <Block location="ioss[0].port[1].pin[4]"/>
-                <Block location="ioss[0].port[1].pin[5]"/>
-                <Block location="ioss[0].port[1].pin[6]"/>
-                <Block location="ioss[0].port[1].pin[7]"/>
-                <Block location="ioss[0].port[2].pin[0]"/>
-                <Block location="ioss[0].port[2].pin[1]"/>
-                <Block location="ioss[0].port[2].pin[2]"/>
-                <Block location="ioss[0].port[2].pin[3]"/>
-                <Block location="ioss[0].port[2].pin[4]"/>
-                <Block location="ioss[0].port[2].pin[5]"/>
-                <Block location="ioss[0].port[2].pin[6]"/>
-                <Block location="ioss[0].port[2].pin[7]"/>
+                <Block location="ioss[0].port[2].pin[0]">
+                    <Alias value="ARD_ADC1"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[1]">
+                    <Alias value="ARD_ADC2"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[2]">
+                    <Alias value="ARD_ADC3"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[3]">
+                    <Alias value="ARD_ADC4"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[4]">
+                    <Alias value="ARD_ADC5"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[5]">
+                    <Alias value="ARD_ADC6"/>
+                </Block>
                 <Block location="ioss[0].port[3].pin[0]">
                     <Alias value="ARD_UART_RX"/>
                 </Block>
@@ -183,21 +175,12 @@
                         <Param id="portLevelConfig" value="false"/>
                     </Personality>
                 </Block>
-                <Block location="ioss[0].port[3].pin[4]"/>
-                <Block location="ioss[0].port[3].pin[5]"/>
-                <Block location="ioss[0].port[3].pin[6]"/>
-                <Block location="ioss[0].port[3].pin[7]"/>
                 <Block location="ioss[0].port[4].pin[0]">
                     <Alias value="LIN_RX"/>
                 </Block>
                 <Block location="ioss[0].port[4].pin[1]">
                     <Alias value="LIN_TX"/>
                 </Block>
-                <Block location="ioss[0].port[4].pin[4]"/>
-                <Block location="ioss[0].port[4].pin[5]"/>
-                <Block location="ioss[0].port[4].pin[6]"/>
-                <Block location="ioss[0].port[4].pin[7]"/>
-                <Block location="ioss[0].port[5].pin[0]"/>
                 <Block location="ioss[0].port[5].pin[1]">
                     <Alias value="CMOD1"/>
                 </Block>
@@ -231,15 +214,6 @@
                 <Block location="ioss[0].port[6].pin[3]">
                     <Alias value="USER_BUTTON"/>
                 </Block>
-                <Block location="ioss[0].port[6].pin[4]"/>
-                <Block location="ioss[0].port[6].pin[5]"/>
-                <Block location="ioss[0].port[7].pin[0]"/>
-                <Block location="ioss[0].port[7].pin[1]"/>
-                <Block location="ioss[0].port[7].pin[2]"/>
-                <Block location="ioss[0].port[7].pin[3]"/>
-                <Block location="ioss[0].port[7].pin[5]"/>
-                <Block location="ioss[0].port[7].pin[6]"/>
-                <Block location="ioss[0].port[7].pin[7]"/>
                 <Block location="ioss[0].port[8].pin[0]">
                     <Alias value="ARD_SPI_MOSI"/>
                 </Block>
@@ -252,10 +226,6 @@
                 <Block location="ioss[0].port[8].pin[3]">
                     <Alias value="SPI_CS"/>
                 </Block>
-                <Block location="ioss[0].port[9].pin[0]"/>
-                <Block location="ioss[0].port[9].pin[1]"/>
-                <Block location="ioss[0].port[9].pin[2]"/>
-                <Block location="ioss[0].port[9].pin[3]"/>
                 <Block location="msc[0].msc[0]">
                     <Alias value="CYBSP_MSC0"/>
                 </Block>
@@ -265,7 +235,6 @@
                 <Block location="msc[1].msc[0]">
                     <Alias value="CYBSP_MSC1"/>
                 </Block>
-                <Block location="peri[0].div_16[0]"/>
                 <Block location="scb[0]">
                     <Alias value="KITPROG_UART"/>
                 </Block>

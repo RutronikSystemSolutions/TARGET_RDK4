@@ -5,11 +5,11 @@
 * Pin configuration
 * This file was automatically generated and should not be modified.
 * Configurator Backend 3.0.0
-* device-db 4.0.2.2983
-* mtb-pdl-cat2 2.0.0.8419
+* device-db 4.0.4.3352
+* mtb-pdl-cat2 2.1.0.8671
 *
 ********************************************************************************
-* Copyright 2022 Cypress Semiconductor Corporation (an Infineon company) or
+* Copyright 2023 Cypress Semiconductor Corporation (an Infineon company) or
 * an affiliate of Cypress Semiconductor Corporation.
 * SPDX-License-Identifier: Apache-2.0
 *
@@ -121,12 +121,6 @@ extern "C" {
     #define ECO_OUT_HAL_IRQ CYHAL_GPIO_IRQ_NONE
     #define ECO_OUT_HAL_DIR CYHAL_GPIO_DIR_INPUT 
     #define ECO_OUT_HAL_DRIVEMODE CYHAL_GPIO_DRIVE_ANALOG
-    #define ARD_ADC1 (P10_0)
-    #define ARD_ADC2 (P10_1)
-    #define ARD_ADC3 (P10_2)
-    #define ARD_ADC4 (P10_3)
-    #define ARD_ADC5 (P10_4)
-    #define ARD_ADC6 (P10_5)
     #define ARD_IO1 (P11_0)
     #define ARD_IO2 (P11_1)
     #define ARD_IO3 (P11_2)
@@ -137,6 +131,12 @@ extern "C" {
     #define ARD_IO8 (P12_1)
     #define KITPROG_RX (P1_0)
     #define KITPROG_TX (P1_1)
+    #define ARD_ADC1 (P2_0)
+    #define ARD_ADC2 (P2_1)
+    #define ARD_ADC3 (P2_2)
+    #define ARD_ADC4 (P2_3)
+    #define ARD_ADC5 (P2_4)
+    #define ARD_ADC6 (P2_5)
     #define ARD_UART_RX (P3_0)
     #define ARD_UART_TX (P3_1)
 #endif //defined (CY_USING_HAL)
