@@ -17,7 +17,7 @@
                 "hal",
                 "i2c",
                 "led",
-				"rgb_led",
+                "rgb_led",
                 "lin",
                 "lptimer",
                 "mcu_gp",
