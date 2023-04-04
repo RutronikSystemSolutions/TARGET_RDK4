@@ -16,13 +16,11 @@
                 "flash_384k",
                 "hal",
                 "i2c",
-                "j2",
                 "led",
+				"rgb_led",
                 "lin",
                 "lptimer",
                 "mcu_gp",
-                "memory",
-                "memory_i2c",
                 "msc",
                 "msc_button",
                 "opamp",
@@ -32,8 +30,7 @@
                 "sram_32k",
                 "std_crypto",
                 "switch",
-                "uart",
-				"cy8ckit_041s_max"
+                "uart"
             ],
             "dependencies": {
                 "core-lib": "latest-v1.X",
