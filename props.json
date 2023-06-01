@@ -33,11 +33,11 @@
                 "uart"
             ],
             "dependencies": {
-                "core-lib": "latest-v1.X",
-                "core-make": "latest-v3.X",
-                "mtb-hal-cat2": "latest-v2.X",
-                "mtb-pdl-cat2": "latest-v2.X",
-                "recipe-make-cat2": "latest-v2.X"
+                "core-lib": "release-v1.3.1",
+                "core-make": "release-v3.0.3",
+                "mtb-hal-cat2": "release-v2.0.0",
+                "mtb-pdl-cat2": "release-v2.4.0",
+                "recipe-make-cat2": "release-v2.0.0"
             },
             "docs_dir": "docs",
             "flow_version": "2.0",
