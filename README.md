@@ -1,4 +1,4 @@
-# RDK4 BSP
+# RDK4 Rev1 BSP
 
 ## Overview
 
