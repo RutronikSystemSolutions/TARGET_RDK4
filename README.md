@@ -2,7 +2,7 @@
 
 ## Overview
 
-The development kit RDK4 is based on an automotive PSoC 4100S Max microcontroller and TLE9262-3BQX System-Basis-Chip. The RDK4 is a solution created by Rutronik that enables developers to evaluate and implement their ideas into their automotive or industrial projects.
+The TLE9262-3BQX System-Basis-Chip. The RDK4 is a solution from Rutronik that enables developers to evaluate and implement their ideas in automotive or industrial projects.
 
 <img src="images/rdk4_rev0.jpg" style="zoom:70%;" />
 
